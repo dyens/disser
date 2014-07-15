@@ -1,0 +1,58 @@
+\documentclass[b5paper,twoside]{stm13b5}
+
+\usepackage[pdftex]{graphicx} 
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{euscript}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{amsthm}
+%\usepackage{feynmp}
+\usepackage{enumerate}
+\usepackage{amsmath}
+%\usepackage{feynmp}
+\usepackage{amscd}
+\usepackage{array}
+
+\usepackage{hyperref}
+
+% B5 original
+%\paperheight=250 true mm
+%\paperwidth=176 true mm
+
+% B5 EQUILIBRIA
+\paperheight=240 true mm
+\paperwidth=163 true mm
+
+%% PARAMETRE SADZBY %%%%%%%%%%%%%%%%
+\textwidth      =      125mm % 105mm % 102.5 % 115 120 bolo 112  108.5
+\textheight     =       195mm % 200
+\headheight     =         8.0mm % 0
+\headsep        =         5.0mm % 0
+\topmargin      =       -15mm% 12.0mm
+\footskip       =         6.0mm
+\oddsidemargin  =       -1.9mm%   % 4.6
+\evensidemargin =       -10.9mm%  % -4.4mm 
+\widowpenalty   =       10000
+\clubpenalty    =       10000
+
+
+
+
+
+\def\url#1{\texttt{#1}}
+
+\def\partt{\mbox{\boldmath $\partial$}}
+
+\def\mysection#1{\addtocounter{section}{1}\par\bigskip\noindent\textbf{\Large\arabic{section}~#1}\par\bigskip}
+
+ \newcolumntype{N}{>{\centering\arraybackslash}m{\dimexpr.25\linewidth-2\tabcolsep}}
+\begin{document}
+
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\setcounter{section}{0}
+\input{Mizisin_13.tex} 
+
+
+\end{document}

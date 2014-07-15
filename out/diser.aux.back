@@ -1,0 +1,10 @@
+\relax 
+\catcode`"\active
+\select@language{russian}
+\@writefile{toc}{\select@language{russian}}
+\@writefile{lof}{\select@language{russian}}
+\@writefile{lot}{\select@language{russian}}
+\@input{intro.aux}
+\@input{literature.aux}
+\bibstyle{gost780u}
+\bibdata{diser}

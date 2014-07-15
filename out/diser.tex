@@ -1,0 +1,45 @@
+%% Основной файл (скелет) диссертации.
+%% Сюда включаются преамбула и все главы.
+%% Для корректной работы оглавления, ссылок на литературу и формулы
+%% нужно прогонять компиляцию 3 раза!!!
+
+\input{preamble} %Преамбула
+\includeonly{
+  intro,
+  chpt_1,
+%%  chpt_1_1,
+%%  chpt_1_2,
+%%  chpt_1_3,
+%%  chpt_2,
+%%  chpt_3,
+%%  chpt_4,
+%%  chpt_5,
+%%  chpt_6,
+%%  outro,
+%%  acknol
+  literature
+}
+
+\begin{document}
+  %\font\ptsans ptsans at14pt \ptsans
+  
+  \maketitle
+  \tableofcontents
+  \include{intro}
+  \include{chpt_1}
+%%  \include{chpt_1_1}
+%%  \include{chpt_1_2}
+%%  \include{chpt_1_3}
+%%  \include{chpt_2}
+%%  \include{chpt_3}
+%%  \include{chpt_4}
+%%  \include{chpt_5}
+%%  \include{chpt_6}
+%%  \include{outro}
+%%  \include{acknol}
+  \include{literature}
+
+%%\bibliographystyle{gost780u}
+%%\bibliography{diser}
+
+\end{document}

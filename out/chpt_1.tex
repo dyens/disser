@@ -1,0 +1,159 @@
+% Глава 1.
+
+\chapter{Описание моделей. Теоретико-полевая формулировка моделей}
+\label{sec:QFT}
+
+В Ланжевеновой формулировке формулировке наши модели определены стохастическими  дифференциальными уравнениями для параметра порядка $\psi = \psi(x)$ c $x \equiv {t,\bf x}$:
+
+
+%% TODO: верт черта в формуле
+\begin{equation}
+\partial_t\psi(x) =-\lambda_0 \Bigr.\frac{\delta H(\psi)}{\delta \psi (\bfx)}\Bigr|_{x\rightarrow\bfx} + \zeta(x),
+\label{eq:Langeven}	
+\end{equation}
+
+
+В случае модели Поттса мы имеем дело с $n$- компонентным параметром порядка $\psi_a = \psi(t,{\bf x})_a$, и Ланжевеново описание очевидным
+образом обобщается:
+
+%% TODO: верт черта в формуле
+\begin{equation}
+\partial_t\psi(x)_a =-\lambda_0 \Bigr.\frac{\delta H(\psi)}{\delta \psi_a (\bfx)}\Bigr|_{x\rightarrow\bfx} + \zeta,
+\label{eq:Langeven_potts}	
+\end{equation}
+
+Где $\partial_t=\partial/\partial t$, $\lambda_0>0$ - кинематический коэффициент. Гауссов шум $\zeta=\zeta(t,x)$
+с нулевым средним задается парной корреляционной функцией:
+
+\begin{eqnarray}
+\langle \zeta (t,{\bf x})\zeta (t',{\bf x'}) \rangle =
+2 \lambda_{0}  \delta(t-t')\delta^{(d)}({\bf x}-{\bf x}')
+\label{eq:zeta_A}
+\end{eqnarray}
+Для модели {\it A},
+\begin{equation}
+\langle \zeta (t,{\bf x})\zeta (t',{\bf x'}) \rangle = g_{0}\lambda_{0}\,
+\psi(t,{\bf x})\,   \delta(t-t')\delta^{(d)}({\bf x}-{\bf x}')
+\label{eq:zeta_G}
+\end{equation}
+Для процесса Грибова,
+\begin{equation}
+\langle \zeta_a (t,{\bf x})\zeta_b (t',{\bf x'}) \rangle = 2\lambda_{0}\,
+\delta_{ab} \delta(t-t')\delta^{(d)}({\bf x}-{\bf x}')
+\label{eq:zeta_P}
+\end{equation}
+Для модели Поттса.
+
+$d$ - размерность пространства ${\bf x}$. Множитель $\psi$ в передней части коррелятора
+(\ref{eq:zeta_G}) обеспечивает полное исчезновение флуктуаций в неактивной (абсорбционной) фазе. (
+{\itТакая специфическая форма амплитуды может быть получена в результате перерастяжения шума и поля}).
+%% TODO В случае Поттса такое требование - чтоб одновременные корреляционные функции стохастической проблемы задавались с весо exp(-H)
+А член $2\lambda_0$ в (\ref{eq:zeta_A}, \ref{eq:zeta_P}) связан с флуктуационно-диссипационной тоеремой: он обеспечивает
+соответствие с статистической моделью $\psi^4$. Здесь и далее затравочные (неренормированные) параметры
+обозначаются индексом "0". Их ренормированные аналоги (без индекса) появятся позже.
+
+Гамильтониан в уравнении (\ref{eq:Langeven}) задается следующими соотношениями:
+\begin{equation}
+H(\psi) = \int d{\bf x} \left \{ -\frac{1}{2} \psi({\bf x}) \partial^2 \psi({\bf x}) \, 
++\frac{\tau_0}{2} \psi({\bf x}) \psi({\bf x}) + V(\psi)\right \}
+\label{eq:H_A_G}
+\end{equation}
+
+Нелинейный член $V(\psi)$ для модели ${\it A}$ имеет вид $V(\psi)=u_0 \psi^4/4!$, для процесса Грибова $V(\psi)=g_0 \psi^3/3!$; 
+$g_0$ и $u_0 >0 $ - константы связи. Вблизи критической точки статический Гамильтониан $H(\psi)$ для модели Поттса представим в виде \cite{Golner, Zia, Priest}:
+
+\begin{eqnarray}
+H(\psi) = \int d{\bf x} \{ -\frac{1}{2} \psi_a({\bf x}) \partial^2 \psi_a({\bf x}) \, 
++\frac{\tau_0}{2} \psi_a({\bf x}) \psi_a({\bf x}) \nonumber \\
++ \frac{g_0}{3!}R_{abc} \psi_a({\bf x}) \psi_b({\bf x}) \psi_c({\bf x})  \},
+\label{eq:H_P}
+\end{eqnarray}
+
+где $\partial_i = \partial/\partial x_i$ - частная производная, $\partial^2 = \partial_i \partial_i$ - оператор
+Лапласа. $\tau_0 \propto (T-T_c)$ - отклонение температуры или ее аналога от критического значения, $g_0>g$- константа связи. 
+Во всех наших формулах мы подразумеваем суммирование по повторяющимся индексам ($a,b,c = 1, ... ,n$ и $i =1, ... ,d$). 
+После взятия функциональной производной $\frac{\delta H(\psi)}{\delta \psi_a (\bfx)}$ в формулах (\ref{eq:Langeven}, \ref{eq:Langeven_potts}) поле $\psi({\bf x})$ необходимо заменить на $\psi(x) = \psi({\bf x}, t) $
+
+Следуя \cite{Alcantara}, мы будем рассматривать общий случай c определенной группой симметрии $G$, для которой
+неприводимый инвариант - тензор третьего ранга $R_{abc}$, который без ограничения общности можно считать симметричным. В однопетлевом приближении нам достаточно знать лишь коэффициенты $R_{1,2}$, определяемые из соотношений:
+
+\begin{eqnarray}
+R_{abc}R_{abe} = R_1 \delta_{ce}, \quad R_{aec}R_{chb}R_{bfa} = R_2 R_{ehf}.
+\label{eq:R12}
+\end{eqnarray}
+
+В оригинальной модели Поттса $G=Z_n$ - группа симметрии гипертетраэдра в $n$ - мерном пространстве. В
+данном случае тензор $R_{abc}$ легко представим в терминах набора $(n+1)$ вектора $e^{\alpha}$, определенных в \cite{Golner, Zia}:
+\begin{eqnarray}
+R_{abc} = \sum_{\alpha} e^{\alpha}_{a}e^{\alpha}_{b}e^{\alpha}_{c},
+\label{eq:R}
+\end{eqnarray}
+где $e^{\alpha}_{a}$ удовлетворяют соотношениям:
+
+\begin{eqnarray}
+\sum_{\alpha=1}^{n+1} e^{\alpha}_{a} = 0,\quad
+\sum_{\alpha=1}^{n+1} e^{\alpha}_{a}e^{\alpha}_{b} = (n+1)\delta_{ab}, \quad
+\sum_{a=1}^{n} e^{\alpha}_{a}e^{\beta}_{a} = (n+1)\delta^{\alpha \beta} -1.
+\label{eq:e_a_alpha}
+\end{eqnarray}
+
+Соотношения (\ref{eq:e_a_alpha}) позволяют представить коэффициены (\ref{eq:R12}) в следующем виде:
+\begin{eqnarray}
+R_1 = (n+1)^2(n-1), \quad
+R_2 = (n+1)^2(n-2)
+\label{eq:R12_n}
+\end{eqnarray}
+
+Стохастические проблемы (\ref{eq:Langeven}, \ref{eq:Langeven_potts}, \ref{eq:zeta_A}, \ref{eq:zeta_G}, \ref{eq:zeta_P}) 
+могут быть переформулированы в виде теоретико-полевых моделей с удвоенным набором полей $\Phi={\psi, \psi^\dagger}$. В
+такой формулировке они будут описываться функционалами действия:
+
+\begin{eqnarray}
+\S(\psi,\psi^{\dagger}) =  \psi^{\dagger}
+\left(-\partial_{t}+\lambda_{0} \partial^{2}- \lambda_{0}\tau_{0}\right)
+\psi + \lambda_{0} (\psi^{\dagger})^2 - u_{0} \psi^{\dagger}\psi^3/3!
+\label{actionA}
+\end{eqnarray}
+для модели {\it A},
+\begin{eqnarray}
+\S(\psi,\psi^{\dag}) =  \psi^{\dag}
+(-\partial_{t}+\lambda_{0} \partial^{2}- \lambda_{0}\tau_{0}) \psi
++ \frac{g_{0}\lambda_{0}}{2} \left\{ (\psi^{\dagger})^2\psi -
+\psi^{\dagger}\psi^2  \right\}
+\label{actionG}
+\end{eqnarray}
+для процесса Грибова,
+\begin{eqnarray}
+\S(\psi,\psi^{\dagger}) =  \psi^{\dagger}_a
+\left(-\partial_{t}+\lambda_{0} \partial^{2}- \lambda_{0}\tau_{0}\right)
+\psi_a + \lambda_{0} \psi_a^{\dagger} \psi_a^{\dagger}-\,
+\frac{g_{0}\lambda_0}{2} R_{abc}\psi_a^{\dagger}\psi_b\psi_c
+\label{actionP}
+\end{eqnarray}
+Для модели Поттса. Где $\psi^{\dag}=\psi^{\dag}(t,{\bf x})$ - вспомогательное поле "поле отклика".
+В приведенных формулах подразумевается интегрирование по аргументам полей и суммирование по индексам, например:
+
+\[  \psi^{\dag}\partial_{t}\psi = \int dt \int d{\bf x}
+\psi^{\dag}(t,{\bf x})\partial_{t}\psi(t,{\bf x}) \]
+или
+\[  \psi_a^{\dag}\partial_{t}\psi_a = \sum_{a=1}^{n}\int dt \int d{\bf x}
+\psi_a^{\dag}(t,{\bf x})\partial_{t}\psi_a(t,{\bf x}). \]
+
+Теоретико-полевая формулировка означает, что статистические средние случайных величин
+в исходных стохастических задачах могут быть представлены как функциональные интеграллы
+с полным набором полей с весом $\exp {\cal S}(\Phi)$. А это есть ничто иное, как функции Грина
+теоретико-полевых моделей с действиями (\ref{actionA}, \ref{actionG}, \ref{actionP}). Для примера,
+линейная функция отклика задач (\ref{eq:Langeven}, \ref{eq:Langeven_potts}, \ref{eq:zeta_A}, \ref{eq:zeta_G}, \ref{eq:zeta_P}) 
+задается функцией Грина:
+
+\begin{eqnarray}
+G=\langle \psi(t, {\bf x}) \psi^{\dag}(t', {\bf x'} ) \rangle =
+\int {\cal D}\psi \int {\cal D} \psi^{\dag}\ \,
+\psi(t, {\bf x}) \psi^{\dag}(t', {\bf x'})\, \exp {\cal S}(\psi,\psi^{\dag})
+\label{respd}
+\end{eqnarray}
+
+для каждой конкретной модели.
+
+\endinput
+

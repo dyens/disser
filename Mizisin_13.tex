@@ -1,0 +1,323 @@
+% !TeX root=sample_STM_2013_b5.tex
+
+
+
+\thispagestyle{plain}
+\addcontentsline{toc}{subsection}{\numberline{}\hspace*{-15mm}M. Dan\v{c}o, M. Hnati\v{c}, T. Lu\v{c}ivjanck\'{y}, L. Mi\v{z}i\v{s}in:
+\emph{Study of percolation process: Anomalous scaling in the presence of compresibility}}
+
+
+\markboth{\sc M. Dan\v{c}o et al.} {\sc Study of percolation process}
+
+\STM
+
+\title{Study of percolation process:\\ Anomalous scaling\\ in the presence of compresibility}
+
+\authors{%M. Dan\v{c}o$^{1}$,
+N. Antonov$^{1}$,  M. Hnati\v{c}$^{2,3}$, A. Kapustin$^{1}$, T. Lu\v{c}ivjansk\'{y}$^{2,3}$,\\ L. Mi\v{z}i\v{s}in$^{2}$}
+
+\address{$^{1}$ Dept. of Theoretical Physics, St-Petersburg State University,
+ Russia\\
+$^{2}$Inst. of Experimental Physics, Slovak Academy of Sciences, Ko\v{s}ice, Slovakia\\
+$^{3}$ Faculty of sciences,P.J. \v{S}af\'{a}rik University,  Ko\v{s}ice, Slovakia}
+
+
+\bigskip
+
+\begin{abstract}
+The effects of turbulent mixing on the critical behavior of directed bond percolation process near its second order phase transition is analyzed using field theoretic approach. The turbulent fluctuations are modelled within the Antonov-Kraichnan model. The compressibility is introduced by the presence of longitudinal modes in the velocity
+correlator. The model is studied near its critical dimension by the means of perturbative renormalization group. The small expansion parameters are $\epsilon, y, \eta$, where $\epsilon$ is the deviation from the critical space dimension $d_c$, $y$ is the deviation from the Kolmogorov regime and $\eta$ is the deviation from the parabolic dispersion law. The one-loop results and the fixed points' structure are briefly discussed.
+\end{abstract}
+
+\vspace*{3mm}
+
+The directed percolation (DP) process is one of the most important model, that describes formation
+ of the fractal structures. In the various interpretations it can be used for explanation of
+  many models, such as disease spreading \cite{ Jansen_Tauber_2004} or hadron interactions at very high
+   energy \cite{Reggeon}. The distinctive property of DP is  exhibition of 
+   non-equilibrium second order phase transition between absorbing (inactive) and active state. The upper critical dimension for this problem is $d_c=4$ similarly as for traditional $\varphi^4$-theory.
+
+In the critical region, behavior of percolation process is sensitive to the presence of
+ other effects. A plethora of numerical and analytical investigations were put into the study of 
+  phenomena (see \cite{ Jansen_Tauber_2004} for discussion).
+   The various effect can be modelled by random velocity field 
+   \cite{Antonov_1999}, where advective field described by rapid change
+    Kraichnan model was studied or one can introduce long-range correlations by
+    the introduction of Levy-flight jumps \cite{Jan99_Hin07_Jan08}.
+  Antonov approach is capable of to examining deviations from the genuine turbulence, such as
+     effect of compressibility \cite{Antonov_Kapusin_2008,Antonov_Kapusin_2010} or 
+      with finite correlation time \cite{DP13}. From general point of view
+      it is also possible to use stochastic Navier-Stokes 
+      equations or "real" turbulent field 
+\cite{Ant11,Vasiliev}. However, in this work we will restrict ourselves to the case of the finite 
+correlated velocity field \cite{Antonov_1999} and give a brief overview of the results
+obtained by renormalization group (RG) technique.
+
+The field theoretic formulation of DP is based on the use master equation, that can be rewritten employing Doi formalism \cite{Doi} into the form of time dependent Schr\"{o}dinger equation with non-hermitian Hamiltonian. After  continuum limit is performed, the effective action is obtained, which is amenable to the usual field--theoretical methods.
+The subscript zero is added to the quantities in order to stress these quantities are bare in the language of
+RG. The action for the DP model only \cite{Jansen_Tauber_2004} can be written in the following form
+\begin{eqnarray}
+S_{1} = \psi^{\dagger}(-\partial_t + D_0 \nabla^2 - D_0 \tau_0) \psi 
++\frac{D_0 \lambda_0}{2} \Big[ (\psi^{\dagger})^2 \psi - \psi^+ \psi^2 \Big],
+\label{eq:action_DP}
+\end{eqnarray}
+where $\partial_t = \partial / \partial t$ is time derivative, $\nabla^2$ is Laplace operator, $\psi$ is density of injected agents, $\psi^{\dagger}$ is response function, $D_0$ is diffusion constant, $\lambda_0$ is coupling constant and $\tau_0$ measures deviation from the threshold value for injected probability. The required integrations over the space-time  variables are not explicitly indicated in the action (\ref{eq:action_DP}), for example the explicit expression
+of the first term is
+\begin{equation}
+\psi^{\dagger} \partial_t \psi  = \int {\mathrm d}t \int {\mathrm d}^d{\bm x} \hspace{2mm}
+ \psi^\dagger(t,{\bm x}) \partial_t \psi(t, {\bm x}).
+\end{equation}
+
+The further step consists in the inclusion of velocity fluctuations and to study what is
+the its influence on the spreading agents. Following Antonov \cite{Antonov_1999} we
+ consider the velocity field to be random Gaussian variable with zero mean and 
+ translationally invariant correlator given in the form
+\begin{equation}
+\langle v_i(t,{\bm x}) v_j (0,{\bm 0}) \rangle =
+ \int \frac{{\mathrm d} \omega}{2\pi}
+ \int \frac{{\mathrm d}^d {\bm k}}{(2\pi)^d}
+ [P_{ij}^{k} + \alpha Q_{ij}^{k}]
+  D_v (t,k) {\mathrm e}^{-i\omega  t  +{\bm k}\cdot {\bm x}}.
+\end{equation}
+ Here $P_{ij}^{k}=\delta_{ij}-k_ik_j/k^2$
+is transverse- and $Q_{ij}^{k}=k_i k_j /k^2$ is longitudinal-projection operator. Positive
+parameter $\alpha>0$ can be interpreted as the most simple
+deviation from the incompressible condition ${\bm \nabla}\cdot {\bm v} = 0$.
+ The correlator $D_v$ is usually given \cite{Antonov_1999} in
+frequency-momentum representation as
+\begin{equation}
+D_v (\omega,k) = \frac{g_{10} u_{10} D_0^3 k^{4-d-y-\eta}}{\omega^2 + u_0^2 D_0^2 (k^{2-\eta})^2}  ,
+\end{equation}
+where $g_{10}$ is coupling constant and $y$, $\eta$ are small expansion parameters of the theory
+(analogous to the $\epsilon$ in $\varphi^4$ theory). 
+The averaging procedure with respect to the velocity fluctuations corresponds to the
+functional integration with quadratic functional 
+$S_{2} = - {\bm v} D^{-1}_v  {\bm v}/2$.
+
+The full problem is equivalent to the sum of functionals corresponding
+ to the DP and velocity field. Velocity fluctuations are included by
+   the replacement of the time derivative by the total convective derivative in the action (\ref{eq:action_DP}):
+\begin{equation}
+\partial_t \rightarrow \partial_t +({\bm v}\cdot\nabla)+a_0 ({\bm \nabla}\cdot{\bm v}),
+\end{equation}
+where $a_0$ is an arbitrary parameter. The difference with the traditional form is due to the
+last term, which has to be added to have consistent RG procedure.
+ Let's just stress that for the value $a_0=1$ the conserved quantity is $\psi$ and for the choice $a_0=0$ the
+  conserved quantity is  $\psi^{\dagger}$.
+
+Just by inspection of the diagrams one can easily observe, that the real expansion parameter is 
+rather $\lambda_0^2$ than $\lambda_0$. Therefore the introduction of new variable $ g_{20} = \lambda_0^2 $ seems
+quite reasonable.
+
+The critical behavior of model is analysed to using RG procedure
+and analysis of ultraviolet divergences is based on the standard power counting\cite{Vasiliev}. This procedure requires 
+ action to be multiplicatively renormalizable and this goal can be achieved by 
+ adding a new term $\psi^{\dagger}\psi vv$ into the total action with new 
+ independent parameter (charge) $u_2$. The total renormalized action can be written 
+ in the compact form
+\begin{eqnarray}
+  S_R & = & \psi^\dagger\biggl[
+  -Z_1\partial_t - Z_4 (\bm{v}\cdot \bm{\nabla}) -a Z_5 (\bm{\nabla}\cdot\bm{v}) 
+  +Z_2 D\nabla^2 - Z_3 D\tau \biggl] \psi \nonumber \\
+  & + & \frac{D\lambda}{2}[Z_6(\psi^\dagger)^2\psi-Z_7\psi^\dagger
+  \psi^2]+Z_8\frac{u_2}{2D}\psi^\dagger\psi \bm{v}^2 -
+   \frac{\bm{v}D_v^{-1}\bm{v}}{2}.
+\end{eqnarray}
+
+ The basic RG differential equation for the renormalized Green function $G_R$ is given by the equation $\{ D_{RG} + N_{\psi} \gamma_{\psi} + N_{\psi^{\dagger}} \gamma_{\psi^{\dagger}} \} G_R(e, \mu, \dots)=0,$ where $e$ is the full set of renormalized counterparts of the bare parameters $e_0 =\{D_0, \tau_0, u_{10},u_{20}, g_{10},\\ g_{20}, a_0 \}$ and $\dots$  denotes other parameters, such as spatial or time variables. The RG operator $D_{RG}$ is given in the form
+\begin{equation}
+D_{RG}= \tilde{D}_{\mu}  = \mu \partial_{\mu} + \beta_{u_1} \partial_{u_1} + \beta_{u_2} \partial_{u_2}+
+\beta_{g_1} \partial_{g_1} + \beta_{g_2} \partial_{g_2} + \beta_{a} \partial_{a} - 
+\gamma_D D_D - \gamma_{\tau} D_{\tau},
+\end{equation}
+where $D_x = x \partial_x$ for any variable $x$ and $\gamma_a = \tilde{D}_{\mu} \ln  Z_a$ is an anomalous dimension and $\tilde{D}_{\mu}$ denotes the differential operator for fixed bare parameters. The $\beta$ function is defined as $\beta_g = \tilde{D}_{\mu} g, g\in\{ g_1, g_2, u_1, u_2, a\}$ and can be obtained in straightforward manner
+\begin{eqnarray}
+& & \beta_{g_1} = g_1 (-y + 2\gamma_D-2\gamma_v), \qquad
+ \beta_{g_2} = g_2 (-\epsilon -\gamma_{g_2}), \nonumber \\
+& & \beta_{u_1} = u_1(-\eta +\gamma_D), \hskip1.8cm
+\beta_{u_2} = - u_2 \gamma_{u_2} ,  \nonumber \\
+& & \beta_{a} = - a \gamma_{a}.
+\label{eq:beta_functions}
+\end{eqnarray}
+From the explicit results of renormalization constants and relations between them, the needed anomalous dimensions have following form
+\begin{subequations}
+    \label{eq:anomal_dim}
+  \begin{eqnarray}  
+    \gamma_D & = & \frac{g_2}{8}  + \frac{g_1}{4(1+u_1)}\left[ 3+\alpha - 
+    \frac{2\alpha}{1+u_1} + \frac{4a(1-a)\alpha}{(1+u_1)^2} 
+    \right], \label{eq:gammaD} 
+    \\ 
+    \gamma_v & = & \frac{g_1 \alpha}{4(1+u_1)^2}\left[ \frac{4a(1-a)}{1+u_1}-1 \right] 
+    + \frac{g_1 u_2}{2(1+u_1)} \left( 3+\frac{\alpha u_1}{1+u_1} \right), \label{eq:gamma_v} 
+    \\
+    \gamma_a & = & (1-2a) \left[ \frac{g_2}{8a} + \frac{g_1\alpha(1-a)}{2(1+u_1)^3} 
+    + \frac{u_2g_1}{4a(1+u_1)} \left(3+\alpha - \frac{2\alpha}{1+u_1} \right) \right], \label{eq:gamma_a}
+    \\
+    \gamma_{u_2} & = & - \frac{g_2}{8} + \frac{g_1(1-2u_2)}{4(1+u_1)} \left[3+\alpha -
+     \frac{2 \alpha}{1+u_1} + \frac{2\alpha a(1-a)}{u_2(1+u_1)^2}\right], \label{eq:gamma_u2}
+     \\
+     \gamma_{g_2} & = & -\frac{3g_2}{2} -\frac{3g_1}{2(1+u_1)} +
+      \frac{\alpha g_1}{1+u_1} \biggl[ \frac{1}{2}(1-2a)^2 + \frac{1-3a(1-a)}{1+u_1} +
+     \nonumber \\
+     & + & \frac{2a (1-a)u_1}{(1+u_1)^2} \biggl]. \label{eq:gamma_g2}
+  \end{eqnarray}
+\end{subequations}
+
+
+
+According to the renormalization group theory, the infrared (IR) asymptotic behavior is governed by IR attractive fixed points (FPs). The fixed points $g^{*}=\{g_1^{*},g_2^{*},u_1^{*},u_2^{*},a^{*}\}$ can be found from requirement that all $\beta$ functions  simultaneously vanish $\beta_{g_1} (g^{*}) =\beta_{g_2} (g^{*})= \beta_{u_1} (g^{*})=\beta_{u_2} (g^{*})=\beta_{a} (g^{*})=0$. The type of FP is determined by the eigenvalues of the matrix $\Omega =\{ \Omega_{ij} = \partial \beta_i / \partial g_j \}$, where $\beta_i$ is the full set of $\beta$ functions and $g_j$ is the full set of charges $\{ g_1 ,g_2 ,u_1 ,u_2 ,a \}$. For the IR attractive FP the real part eigenvalues of matrix $\Omega$ are strictly positive quantities. From this condition the region of stability for the given FP can be determined.    
+
+%%%% prikaz
+\newcommand{\fp}[2]{FP$^{\textrm{#1}}_{#2}$}
+%%%%
+
+The fixed points of this model can be divided on the group. The first group of FPs correspond to limit when correlator  is independent on the difference times of velocity field and is known as a 'frozen' velocity field. All FPs are shown in Tab.~\ref{tab_fvf} and in this case it is charge $u_1=0$.
+
+\begin{table}[!ht ]
+\small
+\caption{FPs of the 'Frozen' velocity field.}
+%\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{| >{\centering\arraybackslash} m{1cm} | >{\centering\arraybackslash} m{1.9cm} 
+ | >{\centering\arraybackslash} m{1.8cm} | >{\centering\arraybackslash} m{1.8cm} 
+ | >{\centering\arraybackslash} b{3.5cm} | 
+}
+  \hline
+  \fp{I}{} & $g_1^{*}$ & $g_2^{*}$ & $u_2^{*}$ & $a^{*}$ \\[1.5ex]
+  \hline
+  \fp{I}{1} & $0$ & $0$ & NF & NF \\[1.5ex]
+  \hline
+  \fp{I}{2} & $0$ & $2\epsilon/3$ & $0$ & $1/2$ \\[1.5ex]
+  \hline
+  \fp{I}{3} & $\frac{2y}{9}(3-\alpha)$ & $0$ & $\frac{\alpha}{2(\alpha-3)}$ & $1/2$ \\[2.5ex]
+  \hline
+  \fp{I}{4} & $\frac{2 (\epsilon-y)}{2 \alpha-9}$ & $\frac{4 (3 \epsilon + 2y ( \alpha- 6))}{2 \alpha-9}$ & 
+  $1$ & $\frac{1}{2}\left[1 - 
+  \sqrt{\frac{ \epsilon(\alpha-12) + 5 y(\alpha-6)}{\alpha(\epsilon-y)}}\right]$ \\[1.5ex]
+  \hline
+  \fp{I}{5} & $\frac{2 (\epsilon-y)}{2 \alpha-9}$ & $\frac{4 (3 \epsilon + 2y ( \alpha- 6))}{2 \alpha-9}$ &
+   $1$ & $\frac{1}{2}\left[1 + \sqrt{ \frac{ \epsilon(\alpha-12) + 5 y(\alpha-6)}{\alpha(\epsilon-y)}}\right]$ \\[1.5ex]
+  \hline
+  \fp{I}{6} & $-\frac{2 (6 \epsilon+5 y( \alpha -3))}{3 (9+\alpha)}$ & $0$ & $
+  \frac{3 (\epsilon+y(\alpha-1))}{6 \epsilon+5y  (\alpha -3)}$ & $\frac{1}{2} 
+  \left[1 -\sqrt{\frac{18 \epsilon - (\alpha-6) (\alpha-3) y}{ \alpha (6 \epsilon 
+  + 5 (\alpha-3) y)}}\right] $ \\[1.5ex]
+  \hline
+  \fp{I}{7} & $-\frac{2 (6 \epsilon+5 y( \alpha -3))}{3 (9+\alpha)}$ & $0$ & $
+  \frac{3 (\epsilon+y(\alpha-1))}{6 \epsilon+5y  (\alpha -3)}$ & $\frac{1}{2} \left[1 +\sqrt{\frac{18 
+  \epsilon - (\alpha-6) (\alpha-3) y}{ \alpha (6 \epsilon + 5 (\alpha-3) y)}}\right] $ \\[1.5ex]
+  \hline
+  \fp{I}{8} & NF & $0$ & $\frac{3 g_1 - 2 y}{6 g_1}$ & $\frac{1}{2}\left[1 - \sqrt{\frac{3}{ \alpha}
+   + \frac{2 y (\alpha-3)}{3 \alpha g_1}}\right]$ \\[1.5ex]
+  \hline
+  \fp{I}{9} & NF & $0$ & $\frac{3 g_1 - 2 y}{6 g_1}$ & $\frac{1}{2}\left[1 + \sqrt{\frac{3}{ \alpha} 
+  + \frac{2 y (\alpha-3)}{3 \alpha g_1}}\right]$ \\[1.5ex]
+  \hline
+  \fp{I}{10} & $g_1^{*}$ & $g_2^{*}$ & $u_2^{*}$ & $1/2$ \\[1.5ex]
+  \hline
+  \fp{I}{11} & $g_1^{*}$ & $g_2^{*}$ & $u_2^{*}$ & $1/2$ \\[1.5ex]
+  \hline
+\end{tabular}
+\label{tab_fvf}
+\end{table}
+Here NF is abbreviation for term - Not Fixed, i.e. for the given FP the corresponding value
+of charge coordinate could not be unambiguosly determined.
+The coordinates of \fp{I}{10} are
+\begin{eqnarray*}
+g_1^{*} &=& -\frac{4 \left[((\alpha -12) \alpha -72) \epsilon +3 ((21-2 \alpha ) \alpha +54) y +9 A\right]}{(\alpha-6) ((\alpha -12) \alpha -180)}, \\
+g_2^{*} &=& -\frac{2 \left[ ((21-2 \alpha ) \alpha +54) y+36 \epsilon + 3 A \right]}{(\alpha -12) \alpha-180}, \\
+u_2^{*} &=& \frac{4 (\alpha -3) \epsilon +(42-25 \alpha ) y+A}{8 (\alpha -6) \epsilon -48 (\alpha -3) y},
+\end{eqnarray*}
+where $A$ stands for the following expression 
+\begin{eqnarray}
+A =\sqrt{-8 ((\alpha -9) \alpha +126) \epsilon  y+(\alpha  (49 \alpha -372)+1764) y^2+144 \epsilon ^2},
+\label{eq_notationA}
+\end{eqnarray}
+whereas for the \fp{I}{11} are given by 
+\begin{eqnarray*}
+g_1^{*} &=& \frac{-4 ((\alpha -12) \alpha -72) \epsilon +12 (\alpha (2 \alpha -21)-54) y + 36 A}{(\alpha -6) ((\alpha -12) \alpha -180)}, \\
+g_2^{*} &=& \frac{2 (\alpha  (2 \alpha -21)-54) y-72 \epsilon +6 A}{(\alpha -12) \alpha -180},\\
+u_2^{*} &=& \frac{4 (\alpha -3) \epsilon +(42-25 \alpha ) y - A}{8 (\alpha -6) \epsilon -48 (\alpha -3) y}.
+\end{eqnarray*}
+
+The \fp{I}{1} is Gaussian FP and is IR stable in the region
+ $\epsilon<0$, $y<0$ and $\eta<0$ and corresponds to the free theory.
+  For the \fp{I}{2} the correlator of the velocity field is irrelevant and behavior
+   is the same as for 'pure' DP regime and this regime is IR stable for $\epsilon>0$, $\epsilon>6y$
+    and $\epsilon>\eta/12$. The interaction part of the action (\ref{eq:action_DP}) is
+     irrelevant for the \fp{I}{3} and it is IR stable. The \fp{I}{4} and \fp{I}{5} differ
+      only in the value of the coordinate $a^*$ and have the same eigenvalues of matrix $\Omega$.
+       The other two FPs (\fp{I}{6} and \fp{I}{7}) also differ only in the value of 
+       charge $a^{*}$ and this same thing agree for the \fp{I}{8} and \fp{I}{9} but
+        for them $g_1$ is arbitrary parameter. The last two \fp{I}{10} and \fp{I}{11}
+         are nontrivial FPs but in limit case $\alpha \rightarrow 0$ the charge $u_2^{*}$ is equal $0$ for \fp{I}{10}.   
+
+
+
+The second limit case is characterized by white-in-time nature of velocity field. This regime is called rapid change model and is useful to introduce new variables $g'_1 \equiv g_1/u_1$ and $w = 1/ u_1 \rightarrow 0$, ($u_1 = \infty$), for which corresponding beta functions have the following form $\beta_{g_1'} =g_1' (\eta-y+\gamma_D -2\gamma_v)$, $\beta_w=w(\eta-\gamma_D)$. All FPs can be found in Tab. \ref{tab_rcm} and it is charge $w=0$ for this group FPs. 
+
+\begin{table}[!ht]
+\small 
+\centering
+\caption{FPs of the Rapid Change model.}
+\begin{tabular}{|c|c|c|c|N|}
+\hline
+\fp{II}{} & $g_1'^{*}$ & $g_2^{*}$ & $u_2^{*}$ & $a^{*}$ \\[1.5ex]
+\hline
+\fp{II}{1} & $0$ & $0$ & NF & NF \\[1.5ex]
+\hline
+\fp{II}{2} & $0$ & $2\epsilon/3$ & $0$ & $1/2$ \\[1.5ex]
+\hline
+\fp{II}{3} & $\frac{4(y-\eta)}{3+\alpha}$ & $0$ & $0$ & NF \\[1.5ex]
+\hline
+\fp{II}{4} & $\frac{4(\eta-y)}{3+\alpha}$ & $0$ & $1/2$ & $1/2$\\[1.5ex]
+\hline
+\fp{II}{5} & $\frac{24(y-\eta)-2\epsilon}{3(5+2\alpha)}$ & 
+$ \frac{4\epsilon(3+\alpha) +24(\eta -y)}{3(5+2\alpha)}$ & $0$ & $1/2$ \\[1.5ex]
+\hline
+\fp{II}{6} & $\frac{2[\epsilon +4(\eta-y)]}{9+2\alpha}$ &
+ $ \frac{4\epsilon(3+\alpha) +24(y-\eta)}{3(9+2\alpha)}$ & 
+ $\frac{(3+\alpha)\epsilon +3(\eta-y)(7+2\alpha)}{3(3+\alpha)[\epsilon+4(\eta-y)]}$ & $1/2 $ \\[1.5ex]
+\hline
+\fp{II}{7} & $\frac{\eta-y}{3+\alpha}$ & $2(y-\eta)$ & $1$ &
+ $1/2 + \sqrt{\frac{2(3+\alpha)\epsilon}{2\alpha(y-\eta)} -\frac{3(5+2\alpha)}{4\alpha}} $\\[1.5ex]
+\hline
+\fp{II}{8} & $\frac{\eta-y}{3+\alpha}$ & $2(y-\eta)$ & $1$ & 
+$1/2 - \sqrt{ \frac{(3+\alpha)\epsilon}{2\alpha(y-\eta)} -\frac{3(5+2\alpha)}{4\alpha}} $\\[1.5ex]
+\hline
+\end{tabular}
+\label{tab_rcm}
+\end{table}
+
+The \fp{II}{1} corresponds Gaussian(free) FP and is IR stable for $\epsilon<0$, $y<\eta$ and $\eta>0$. For the \fp{II}{2} the correlator of the velocity field is irrelevant and behavior is the same as for 'pure' DP regime and is IR stable for $\epsilon>0$, $\epsilon/12+\eta>6y$ and $\epsilon<\eta/12$. For the \fp{II}{3}, \fp{II}{4}, the percolation nonlinearity of DP action (\ref{eq:action_DP}) is irrelevant and both are unstable. The \fp{II}{5} is stable for $(\alpha+3)\epsilon>6(y-\eta)$, $12(y-\eta)>\epsilon$ and $2\eta>y$. The \fp{II}{6} is nontrivial FP and numerical calculation is shown that is IR unstable. The \fp{II}{7} and \fp{II}{8} differ only by the charge $a^{*}$ and have the same eigenvalues of matrix $\Omega$ and are IR unstable in consideration of numerical calculation.  In both the limit of the boundaries of the regions are straight lines.
+
+The last, most nontrivial case corresponds to the situation where charge $u_1$ has finite value. This group of FPs is the subject of the our future work and we also intend to determine the stability region for nontrivial FPs in the frozen velocity field.
+
+
+
+
+\subsection*{Acknowledgement}
+The work was suported by VEGA grant No. $1/0222/13$ and No. 1/0234/12
+ of the Ministry of Education, Science, Research and Sport of the Slovak Republic. This article was also
+created by implementation of the Cooperative phenomena and phase transitions
+in nanosystems with perspective utilization in nano- and biotechnology project No
+26110230097. Funding for the operational research and development program was
+provided by the European Regional Development Fund.
+
+\begin{thebibliography}{99}\addtolength{\itemsep}{-1mm}
+\bibitem{Jansen_Tauber_2004} H.-K.~Janssen and U. C. T\"{a}uber, {\it Ann. Phys.} {\bf 315}, 147 (2004).
+\bibitem{Reggeon} J. L. Cardy and R. L. Sugar,{\it J. Phys. A Math. Gen.} {\bf 13}, L423 (1980).
+\bibitem{Antonov_1999} N. V. Antonov, {\it Phys. Rev. E} {\bf 60}, 6691 (1999); {\it Physica} D{\bf144}, (2000) 370. 
+\bibitem{Jan99_Hin07_Jan08} H.-K.~Janssen, K.~Oerding, F.~van~Wijland and H.J. Hilhorst, {\it Eur. Phys. J. B} {\bf 7}, 137 (1999); H.~Hinrichsen, J. Stat. Phys.: Theor. Exp. P07066 (2007).
+\bibitem{Antonov_Kapusin_2008} N. V. Antonov, V. I. Iglovikov, A. S. Kapusin, {\it  J. Phys. A: Math. Theor.} {\bf 42},  135001 (2008).
+\bibitem{Antonov_Kapusin_2010} N. V. Antonov, A. S. Kapusin, {\it  J. Phys. A: Math. Theor.} {\bf 42},  135001 (2008).
+\bibitem{DP13} M. Dan\v{c}o, M. Hnati\v{c}, T. Lu\v{c}ivjansk\'{y}, L. Mi\v{z}i\v{s}in, 
+ {\it Theor. Math. Phys.} {\bf 176}, 900 (2013).
+\bibitem{Ant11} N. V.~Antonov, A. S.~Kapustin and A. V.~Malyshev, {\it	Theor. Math. Phys.} {\bf 169}, 1470 (2011).
+\bibitem{Vasiliev} A. N. Vasil'ev, \textit{The Field Theoretic
+ Renormalization Group in Critical Behavior Theory and Stochastic Dynamics} (Boca Raton: Chapman  Hall/CRC, 2004).
+\bibitem{Doi} M.~Doi, {\it J. Phys. A.} {\bf 9}, 1456 (1976); {\it J. Phys. A} {\bf 9}, 1479 (1976).
+\end{thebibliography}   
+
+\endinput
+
+%\end{document}

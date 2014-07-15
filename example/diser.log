@@ -1,0 +1,1070 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.5.9)  16 FEB 2014 20:06
+entering extended mode
+**diser.tex
+
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\diser.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\preamble.tex"
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\rusthesis.cls"
+Document Class: rusthesis 1996/11/04 v1.2 A. Smolin Thesis Class fot TeTeX
+
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\ast14.cli")
+\descriptionmargin=\dimen102
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\cp1251.def"
+File: cp1251.def 1999/11/16 v1.0d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\russianb.ldf"
+Language: russianb 2008/03/21 v1.1r Russian support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+)
+Package babel Info: Making " an active character on input line 199.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\t2\mathtext.sty"
+Package: mathtext 1999/01/28 v1.0 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 111.
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 42.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\diser.aux"
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\intro.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_1.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_2.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_3.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_2.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_3.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_4.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_5.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_6.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\outro.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\acknol.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+! Undefined control sequence.
+\maketitle ...@nauk }} \\ {\bfseries \@chieftitle 
+                                                  {} \@chief } \\ \end {tabu...
+l.24   \maketitle
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+]
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\diser.toc")
+\tf@toc=\write3
+
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\intro.tex" [2
+
+]
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\form.tex" [3
+
+] [4]
+Underfull \hbox (badness 1297) in paragraph at lines 14--15
+[][]\T2A/cmr/m/n/14.4 ������� ���-�-��� ���-��-��-���-��-���/��������������� �
+��������-
+ []
+
+[5] [6] [7] [8]
+Underfull \hbox (badness 1152) in paragraph at lines 49--50
+[][]\T2A/cmr/m/n/14.4 XLII ���-��� ���-�� ��-���-����-���-�� ��-���-��-�� ����-
+��� ��-��-��
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 53--54
+[][]\T2A/cmr/m/n/14.4 ������ ��-��-��-��� �����-����������� WSNMR-2008 (�����-
+
+ []
+
+[9]
+Underfull \hbox (badness 1331) in paragraph at lines 60--61
+[][]\T2A/cmr/m/n/14.4 XLV ���-��� ���-�� ��-���-����-���-�� ��-���-��-�� ����-�
+�� ��-��-��
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[][]\T2A/cmr/m/n/14.4 ������������� ��-��-���-��-���� ���-��-���-��� IQEC/CLEO-
+2011
+ []
+
+[10]
+Underfull \hbox (badness 3396) in paragraph at lines 67--68
+[][]\T2A/cmr/m/n/14.4 ��������� <<���-��-��-���-��� ���������>>-2012 (�����-���
+������,
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 76--77
+[][]\T2A/cmr/m/n/14.4 S.V. Grigoriev, K.S. Napolskii, N.A. Grigoryeva, A.V. Vas
+ilieva,
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 76--77
+\T2A/cmr/m/n/14.4 A.A. Mistonov, A.S. Sinitskii, H. Eckerlebe, D.Yu. Chernyshov
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\T2A/cmr/m/n/14.4 A.V. Petukhov, D.V. Belov, A.A. Eliseev, A.V. Lukashin,
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 78--79
+[][]\T2A/cmr/m/n/14.4 A.A. Eliseev, D.F. Gorozhankin, K.S. Napolskii, A.V. Petu
+khov,
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 78--79
+\T2A/cmr/m/n/14.4 N.A. Sapoletova, A.V. Vasilieva, N.A. Grigoryeva, A.A. Miston
+ov,
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 78--79
+\T2A/cmr/m/n/14.4 D.V. Belov, W.G. Bowman, K.O. Kvashnina, D.Yu. Chernyshov,
+ []
+
+[11]
+Underfull \hbox (badness 1442) in paragraph at lines 79--80
+[][]\T2A/cmr/m/n/14.4 K.S. Napolskii, N.A. Sapoletova, D.F. Gorozhankin, A.A. E
+liseev,
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 79--80
+\T2A/cmr/m/n/14.4 A.V. Petukhov, D.V. Byelov, A.A. Mistonov, N.A. Grigoryeva,
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 80--81
+[][]\T2A/cmr/m/n/14.4 �.�. ��-��-���-��, �.�. ���-��-����, �.�. ���-��-���-��, 
+�.�. ��-���-
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 81--82
+[][]\T2A/cmr/m/n/14.4 S.V. Grigoriev, K.S. Napolskii, N.A. Grigoryeva, A.V. Vas
+ilieva,
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 81--82
+\T2A/cmr/m/n/14.4 A.A. Mistonov, D.Yu. Chernyshov, A.V. Petukhov, D.V. Belov,
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 81--82
+\T2A/cmr/m/n/14.4 A.A. Eliseev, A.V. Lukashin, Yu.D. Tretyakov, A.S. Sinitskii,
+ and
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 83--84
+[][]\T2A/cmr/m/n/14.4 N.A. Grigoryeva, A.A. Mistonov, K.S. Napolskii, N.A. Sapo
+letova,
+ []
+
+[12]
+Underfull \hbox (badness 3690) in paragraph at lines 85--86
+[][]\T2A/cmr/m/n/14.4 M. Kostylev, A.A. Stashkevich, Y. Roussigne, N.A. Grigory
+eva,
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 85--86
+\T2A/cmr/m/n/14.4 A.V. Lukashin, S.V. Grigoriev, S.N. Samarin, Phys.Rev.B v. 86
+,
+ []
+
+))
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_1.tex" [13]
+1.
+
+LaTeX Warning: Citation `Yablonovitch1987' on page 14 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation `John1987' on page 14 undefined on input line 8.
+
+[14
+
+]
+
+LaTeX Warning: Citation `Cicek2012' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Loncar2002' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Russell2003' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Euser2006' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Hu2009' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Yan2006' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Geoffrey2007' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Park1999' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Bogush1988' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Kuai2004' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Bohmer1996' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Plekhanov' on page 15 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Krauss1999' on page 15 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Cheng1999' on page 15 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Miklyaev2003' on page 15 undefined on input line 17.
+
+[15]
+
+! LaTeX Error: File `images/FCC_HCP' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...phics[width=0.8\linewidth]{images/FCC_HCP}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]
+
+LaTeX Warning: Citation `Petoukhov1' on page 17 undefined on input line 33.
+
+
+LaTeX Warning: Citation `Petoukhov2' on page 17 undefined on input line 33.
+
+
+LaTeX Warning: Citation `Johnson1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Jiang1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Sumida2000' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Busch1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Yablonovitch1999' on page 17 undefined on input line 3
+7.
+
+
+LaTeX Warning: Citation `Alimov2008' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Yablonovitch1999' on page 17 undefined on input line 3
+7.
+
+
+LaTeX Warning: Citation `Alimov2008' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Holland1998' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Wijnhoven1998' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Yan2000' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Chen2001' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Zakhidov1998' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Vlasov1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Braun1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Blanco2000' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Lei2001' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Zhukov2004' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Lungu2001' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Aliev2007' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Velev1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Yan1999' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Xu2000' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Wijnhoven2000' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Bartlett2000' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Zakhidov' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Dissanayake2011' on page 17 undefined on input line 37
+.
+
+
+LaTeX Warning: Citation `Russell2003' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Fleming2002' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Lin2003' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Look2001' on page 17 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Baratto2005' on page 17 undefined on input line 37.
+
+[17] [18]
+
+LaTeX Warning: Citation `Stober1968' on page 19 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Goodwin1974' on page 19 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Bogush1988' on page 19 undefined on input line 52.
+
+
+LaTeX Warning: Citation `Geoffrey2007' on page 19 undefined on input line 52.
+
+[19]
+
+LaTeX Warning: Citation `Yan2006' on page 20 undefined on input line 56.
+
+
+LaTeX Warning: Citation `Geoffrey2007' on page 20 undefined on input line 58.
+
+[20]
+
+LaTeX Warning: Citation `Park1999' on page 21 undefined on input line 61.
+
+
+! LaTeX Error: File `images/Synthes_Pressure' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...th=0.5\linewidth]{images/Synthes_Pressure}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Park1999' on page 21 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Park1999' on page 21 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Kuai2004' on page 21 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Li2006' on page 21 undefined on input line 73.
+
+[21]
+
+! LaTeX Error: File `images/Vertical_Deposition' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...0.3\linewidth]{images/Vertical_Deposition}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Bohmer1996' on page 22 undefined on input line 84.
+
+[22]
+
+LaTeX Warning: Citation `Stein2001' on page 23 undefined on input line 86.
+
+
+LaTeX Warning: Citation `Velev1997' on page 23 undefined on input line 92.
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 92--93
+[][]\T2A/cmr/m/n/14.4 ����� �� ��-��-��� ��-��-��-��� ��-���-��-��-���-��� ���-
+��-��-���-���
+ []
+
+[23]
+
+! LaTeX Error: File `images/SolGel_scheme' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 ...width=0.5\linewidth]{images/SolGel_scheme}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Holland1998' on page 24 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Holland1998' on page 24 undefined on input line 96.
+
+
+LaTeX Warning: Citation `Holland1998' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Wijnhoven1998' on page 24 undefined on input line 100.
+
+
+
+LaTeX Warning: Citation `Blanford1998' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Velev1999' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Holland1999' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Blanford1998' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Blanford1998' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Velev1999' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Blanford1998' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Richel2000' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Blanford1998' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Richel2000' on page 24 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Johnson1999' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Gates1999' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Jiang1999' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Bertone1999' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Deutsch2000' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Miguez2001' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Turner2001' on page 24 undefined on input line 103.
+
+[24]
+
+LaTeX Warning: Citation `Holland1999' on page 25 undefined on input line 106.
+
+
+LaTeX Warning: Citation `Vlasov1999' on page 25 undefined on input line 106.
+
+[25]
+
+! LaTeX Error: File `images/Synthes_Annealing' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ...0.35\linewidth]{images/Synthes_Annealing}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Tessier2000' on page 26 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Tessier2000' on page 26 undefined on input line 113.
+
+
+LaTeX Warning: Citation `Velev1999' on page 26 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Tessier2000' on page 26 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Tessier2001' on page 26 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Braun1999' on page 26 undefined on input line 117.
+
+
+! LaTeX Error: File `images/ElectroChem_scheme' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...0.5\linewidth]{images/ElectroChem_scheme}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Luo2001' on page 26 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Luo2001' on page 26 undefined on input line 124.
+
+[26]
+
+LaTeX Warning: Citation `Braun2001' on page 27 undefined on input line 129.
+
+
+LaTeX Warning: Citation `Sumida2001' on page 27 undefined on input line 129.
+
+
+LaTeX Warning: Citation `Wijnhoven2000' on page 27 undefined on input line 129.
+
+
+
+LaTeX Warning: Citation `Luo2001' on page 27 undefined on input line 129.
+
+[27]
+
+LaTeX Warning: Citation `Sumida2000' on page 28 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Sinitskii2007MendComm' on page 28 undefined on input l
+ine 145.
+
+[28]
+
+! LaTeX Error: File `images/Optic_1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 ...hics[width=0.5\linewidth]{images/Optic_1}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Sinitskii2007MendComm' on page 29 undefined on input l
+ine 149.
+
+
+LaTeX Warning: Citation `Sinitskii2007MendComm' on page 29 undefined on input l
+ine 149.
+
+[29] [30] [31]
+
+! LaTeX Error: File `images/Optic_2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 ...hics[width=0.5\linewidth]{images/Optic_2}
+                                                  }
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Sinitskii2007MendComm' on page 32 undefined on input l
+ine 181.
+
+
+LaTeX Warning: Citation `Sinitskii2007MendComm' on page 32 undefined on input l
+ine 181.
+
+[32] [33])
+No file chpt_1_2.tex.
+No file chpt_1_3.tex.
+No file chpt_2.tex.
+No file chpt_3.tex.
+No file chpt_4.tex.
+No file chpt_5.tex.
+No file chpt_6.tex.
+
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\outro.tex" [34]
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\concl.tex"
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{enumerate}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[35
+
+] [36] [37]))
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\acknol.tex" [38] [39
+
+])
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\diser.bbl" [40]
+Underfull \hbox (badness 1270) in paragraph at lines 28--33
+[][]\T2A/cmr/m/n/14.4 Refraction-based pho-ton-ic crys-tal diode / A. Ci-cek, M
+. B. Yu-cel,
+ []
+
+[41
+
+] [42] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 211--216
+[][]\T2A/cmr/m/it/14.4 Yablonovitch, E. \T2A/cmr/m/n/14.4 Op-tics: Liq-uid ver-
+sus pho-ton-ic crys-tals /
+ []
+
+[44] [45] [46]
+Underfull \hbox (badness 3219) in paragraph at lines 431--438
+[][]\T2A/cmr/m/n/14.4 Studies on the prepa-ra-tion and char-ac-ter-i-sa-tion of
+ monodis-perse
+ []
+
+[47] [48]
+Underfull \hbox (badness 1924) in paragraph at lines 512--517
+[][]\T2A/cmr/m/it/14.4 Deutsch, M. \T2A/cmr/m/n/14.4 Conjugated-polymer pho-ton
+-ic crys-tals / M. Deutsch,
+ []
+
+[49] [50]
+Underfull \hbox (badness 4229) in paragraph at lines 616--622
+[][]\T2A/cmr/m/n/14.4 Magnetic an-ti-dot ar-rays from self-assembly tem-plate m
+eth-ods /
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 713--718
+[][]\T2A/cmr/m/it/14.4 Ramirez, A. P. \T2A/cmr/m/n/14.4 Strong-ly ge-o-met-ri-c
+al-ly frus-trat-ed mag-nets /
+ []
+
+[52]
+Underfull \hbox (badness 1735) in paragraph at lines 779--785
+[][]\T2A/cmr/m/n/14.4 Geometrical frus-tra-tion in the fer-ro-mag-net-ic py-roc
+hlore ho$[]$ti$[]$o$[]$ /
+ []
+
+[53]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.830   spin-ice compound $dy_2t$_
+                                  2$o$_7$~/ R.~Higashinaka, Y.~Maeno~//
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 838--844
+[][]\T2A/cmr/m/n/14.4 Three-dimensional kaste-leyn tran-si-tion: Spin ice in a 
+[100] field /
+ []
+
+[54]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.892   superconducting {\pi
+                            }-loop arrays~/ H.~Hilgenkamp, ~Ariando, H.-J.~H...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.892   superconducting {\pi}
+                             -loop arrays~/ H.~Hilgenkamp, ~Ariando, H.-J.~H...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \cyrdash invalid in math mode on input line 893.
+
+
+LaTeX Warning: Command \cyrdash invalid in math mode on input line 894.
+
+
+LaTeX Warning: Command \cyrdash invalid in math mode on input line 894.
+
+
+LaTeX Warning: Command \cyrdash invalid in math mode on input line 895.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.897 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.897 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 891--897
+\T2A/cmr/m/n/14.4 su-per-con-duct-ing $\OML/cmm/m/it/14.4  \OMS/cmsy/m/n/14.4 
+  \OML/cmm/m/it/14.4 looparrays =H: Hilgenkamp;  Ariando; H: \OMS/cmsy/m/n/14.4
+  
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 968--974
+[][]\T2A/cmr/m/n/14.4 Microradian x-ray diffrac-tion in col-loidal pho-ton-ic c
+rys-tals /
+ []
+
+[56] [57]) [58]
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\diser.aux"
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\intro.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_1.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_2.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_1_3.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_2.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_3.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_4.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_5.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\chpt_6.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\outro.aux")
+("C:\Users\Nikolay\Desktop\Наука 2 Антонов (А-модель Нав�
+�е-Стокс)\! Диссер\Мист\acknol.aux"))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2538 strings out of 493922
+ 39626 string characters out of 3147300
+ 79469 words of memory out of 3000000
+ 5714 multiletter control sequences out of 15000+200000
+ 12780 words of font info for 33 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,6n,26p,2190b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on diser.dvi (58 pages, 193396 bytes).
